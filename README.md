@@ -33,3 +33,6 @@ You can also include Chrome tests by commenting out the Chrome inclusion in `wdi
 npm run local
 ```
 This will run one test on a FF browser locally
+
+## Test options
+Set `CHIME_LOCAL` environment variable to true to run against a `localhost:8080` instance of the demo app.

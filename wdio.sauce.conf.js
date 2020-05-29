@@ -10,7 +10,7 @@ exports.config = {
 
     user: process.env.SAUCE_USERNAME,
     key: process.env.SAUCE_ACCESS_KEY,
-    sauceConnect: true,
+    sauceConnect: process.env.LOCAL_CHIME ? true : false,
 
     specs: [
         './tests/*.ts'
